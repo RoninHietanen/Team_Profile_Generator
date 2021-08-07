@@ -92,7 +92,7 @@ function initHtml() {
         </header>
         <div class="container mt-6">
             <div class="columns is-three-quarters-tablet is-two-thirds-desktop">`;
-    fs.writeFile("./example/Team_Profile.html", html, function(err) {
+    fs.writeFile("./htmlfolder/Team_Profile.html", html, function(err) {
         if (err) {
             console.log(err);
         }
@@ -145,11 +145,10 @@ function addHtml(member) {
                     <p><strong>Email Address:</strong> ${email}</p>
                     <p><strong>GitHub:</strong> ${gitHub}</p>
                 </div>
-            </div>
-        </div>`;
+            </div>`;
         }
         console.log("adding team member");
-        fs.appendFile("./example/Team_Profile.html", data, function (err) {
+        fs.appendFile("./htmlfolder/Team_Profile.html", data, function (err) {
             if (err) {
                 return reject(err);
             };
@@ -159,13 +158,13 @@ function addHtml(member) {
 }
 
 function finishHtml() {
-    const html = `            </div>
+    const html = `</div>
     </div>
     
 </body>
 </html>`;
 
-    fs.appendFile("./example/Team_Profile.html", html, function (err) {
+    fs.appendFile("./htmlfolder/Team_Profile.html", html, function (err) {
         if (err) {
             console.log(err);
         };
