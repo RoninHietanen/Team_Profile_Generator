@@ -1,0 +1,26 @@
+{
+  "name": "Team_Profile_Generator",
+  "version": "1.0.0",
+  "description": "## Description ```md The Team Profile Generator allows the user to create a simple Team Profile via the terminal on their computer. ```",
+  "main": "index.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RoninHietanen/Team_Profile_Generator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RoninHietanen/Team_Profile_Generator/issues"
+  },
+  "homepage": "https://github.com/RoninHietanen/Team_Profile_Generator#readme",
+  "dependencies": {
+    "inquirer": "^8.1.2"
+  }
+}
