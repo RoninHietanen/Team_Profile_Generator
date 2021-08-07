@@ -16,7 +16,9 @@ SO THAT I have quick access to their emails and GitHub profiles.
 ## What you will need
 
 VS Code or another type of coding interface installed.
+
 Node.js isntalled.
+
 Gitbash installed.
 
 ## How to install
