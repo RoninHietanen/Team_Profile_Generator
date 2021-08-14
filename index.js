@@ -116,8 +116,8 @@ function addHtml(member) {
                 </header>
                 <div class="content has-background-white-ter">
                     <p><strong>ID:</strong> ${id}</p>
-                    <p><strong>Email Address:</strong> ${email}</p>
-                    <p><strong>GitHub:</strong> ${gitHub}</p>
+                    <p><strong>Email Address: </strong><a href="mailto:${email}">${email}</a></p>
+                    <p><strong>GitHub: </strong><a href="${gitHub}">${gitHub}</a></p>
                 </div>
             </div>
         </div>`
@@ -129,8 +129,8 @@ function addHtml(member) {
                 </header>
                 <div class="content has-background-white-ter">
                     <p><strong>ID:</strong> ${id}</p>
-                    <p><strong>Email Address:</strong> ${email}</p>
-                    <p><strong>GitHub:</strong> ${gitHub}</p>
+                    <p><strong>Email Address: </strong><a href="mailto:${email}">${email}</a></p>
+                    <p><strong>GitHub: </strong><a href="${gitHub}">${gitHub}</a></p>
                 </div>
             </div>
         </div>`;
@@ -142,8 +142,8 @@ function addHtml(member) {
                 </header>
                 <div class="content has-background-white-ter">
                     <p><strong>ID:</strong> ${id}</p>
-                    <p><strong>Email Address:</strong> ${email}</p>
-                    <p><strong>GitHub:</strong> ${gitHub}</p>
+                    <p><strong>Email Address: </strong><a href="mailto:${email}">${email}</a></p>
+                    <p><strong>GitHub: </strong><a href="${gitHub}">${gitHub}</a></p>
                 </div>
             </div>`;
         }
