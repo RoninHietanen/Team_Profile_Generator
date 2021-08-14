@@ -36,7 +36,7 @@ file will be generated with that information in the Team_Profile_Generator file 
 
 *The following video is a visual representation of how to install and use the Team Profile Generator:*
 
-![Installation video](./assets/howtoinstall.mp4)
+[How to install](https://youtu.be/JIS-fny2GMo)
 
 ## Key Technologies Used
 
